@@ -1,4 +1,54 @@
 body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.blocks {
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr / 200px 1fr 2fr 400px;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.block1 {
+    background-color: gray;
+    padding: 0;
+}
+
+.block2 {
+    background-color: lightgrey;
+    padding: 0;
+}
+
+footer
+{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
