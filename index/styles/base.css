@@ -41,7 +41,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(194, 214, 213);
+    background-color: rgb(255, 255, 255);
 }
 
 main div {
@@ -51,14 +51,68 @@ main div {
     padding: 1rem;
 }
 
-section .card1 {
+.card1 {
     grid-column: 1 / 2;
-    border: 2px dashed blue;
+    border: 2px solid blue;
+    border-radius: 10px;
     background-color: white;   
 }
 
-section .card2 {
+.card2 {
     grid-column: 2 / 3;
     border: 2px solid blue;
+    border-radius: 10px;
     background-color: white;
+}
+
+.alexcalizaya {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    border-radius: 10px;
+}
+
+.card1 h2 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0;
+}
+
+.card1 h3 {
+    text-align: center;
+    color: black;
+    margin-top: 1em;
+    border-top: 1 px solid #ccc;
+    padding-top: 0.5em;
+}
+
+.card1 p {
+    line-height: 1.5;
+    margin-bottom: 1em;
+    color: #222;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 h2 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0;
 }
