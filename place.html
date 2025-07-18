@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page WDD 131</title>
+    <meta name="title" content="country page">
+    <meta name="author" content="Alex Calizaya">
+    <meta name="description" content="A page that describe somthings about a country or city">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Iquique</h1>
+    </header>
+    <main>     
+        <img src="images/hero-large.webp" title="iquiquePhoto">
+        <div class="cuadro1">
+            <h2>Data</h2>
+            <ul class="dataCity">
+                <li><strong>Area:</strong> 2,242 km²</li>
+                <li><strong>Population:</strong> ~191,468</li>
+                <li><strong>Country:</strong> Chile</li>
+                <li><strong>Languages:</strong> Spanish (oficial)</li>
+                <li><strong>Currency:</strong> Peso chileno (CLP)</li>
+                <li><strong>Time Zone:</strong> GMT-4</li>
+                <li><strong>Calling Code:</strong> +56</li>
+                <li><strong>Internet TLD:</strong> .cl</li>
+            </ul>
+        </div>
+        <div class="cuadro2">
+            <h2>
+                Wheater
+                <img src="images/whater.svg" title="wheater">
+            </h2>
+            <ul class="wheater">
+                <li><strong>Temperature:</strong> <span id="temperature">17</span> °C</li>
+                <li><strong>Conditions:</strong> Cloudy</li>
+                <li><strong>Wind:</strong> <span id="wind">6</span> km/h</li>
+                <li><strong>Wind Chill:</strong> <span id="windchill">Calculating...</span></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> | Alex Calizaya | Tarapaca, Chile</p>
+        <p id="lastModified"> Last Modification</p>
+    </footer>
+</body>
+</html>
