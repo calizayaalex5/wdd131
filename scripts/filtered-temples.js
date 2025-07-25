@@ -136,6 +136,8 @@ const homeLink = document.querySelector("#home");
 
 homeLink.addEventListener("click", () => {
   const home = displayTemples(temples);
+
+  document.querySelector("main h2").textContent = "Home";
 });
 
 //old temples filter
