@@ -1,6 +1,8 @@
 body {
     max-width: 800px;
     font-family: "Roboto Flex", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 /*----------- HEADER --------------*/
 
@@ -91,15 +93,22 @@ button {
 }
 
 .checkbox label{
-    display: block;
-    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    gap: 8px;
+
 }
 
 input[type=checkbox] {
 	margin-left: 10px;
 }
 
-#task {
+#durability,
+#ease,
+#performance,
+#design {
 	width: 25px;
 	height: 25px;
 }

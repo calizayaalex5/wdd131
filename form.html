@@ -21,9 +21,9 @@
         <form method="get" action="review.html" class="wr1">
             <fieldset>
                 <div class="product">
-                    <label for="productName" id="productN">Product Name 
+                    <label for="productName" id="productN" required>Product Name 
                     <select name="object" id="productName">
-                        <option value="" desable selected>Choose a Product...</option>
+                        <option value="" disable selected>Choose a Product...</option>
                         <option value="furniture">Furniture</option>
                         <option value="clothing">Clothing</option>
                         <option value="books">Books</option>
@@ -32,7 +32,7 @@
                     </label>
                 </div>
                 <div class="star">
-                    <label for="OverallRating" id="stars">Overall Overall</label>
+                    <label id="stars">Overall Overall</label>
                     <div class="star-rating" id="OverallRating">
                         <input type="radio" id="star5" name="stars" value="5"><label for="star5">★</label>
                         <input type="radio" id="star4" name="stars" value="4"><label for="star4">★</label>
@@ -42,14 +42,14 @@
                     </div>
                 </div>
                 <div class="date">
-                    <label for="DateofInst" id="InstallationDate">Date of Installation<input type="date" name="completeDate"></label>
+                    <label id="InstallationDate">Date of Installation<input type="date" name="completeDate"></label>
                 </div>
                 <div class="checkbox">
                     <div>Which features did you find useful in the product<br>(Check all that apply)</div>
-                    <label><input type="checkbox" name="durability" value="yes" id="task"> Durability</label>
-                    <label><input type="checkbox" name="ease" value="yes" id="task"> Ease of Use</label>
-                    <label><input type="checkbox" name="performance" value="yes" id="task"> Performance</label>
-                    <label><input type="checkbox" name="design" value="yes" id="task"> Design</label>
+                    <label><input type="checkbox" name="durability" value="yes" id="durability"> Durability</label>
+                    <label><input type="checkbox" name="ease" value="yes" id="ease"> Ease of Use</label>
+                    <label><input type="checkbox" name="performance" value="yes" id="performance"> Performance</label>
+                    <label><input type="checkbox" name="design" value="yes" id="design"> Design</label>
                 </div>
                 <div class="writeReview">
                     <label for="reviewT">Written Review (Optional)</label>
@@ -62,7 +62,7 @@
                 <button type="submit">Post Review</button>
 
             </fieldset>
-           
+        </form>  
     </main>
     <footer>
         <p><span id="currentyear"></span> ©️ | 🏔️ Alex Calizaya 🏔️ | Tarapaca, Chile </p>
