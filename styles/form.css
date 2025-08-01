@@ -149,6 +149,11 @@ input[type=checkbox] {
     transform: scale(1.02);
 }
 
+.optional-text {
+    font-size: 0.8rem;
+    color: #191970;
+    font-weight: 600;
+}
 
 /*----------- FOOTER --------------*/
 
