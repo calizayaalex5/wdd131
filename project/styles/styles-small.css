@@ -1,0 +1,267 @@
+/* BOTTON NAV */
+
+@media (max-width: 768px) {
+    #navMenu {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #navMenu.active {
+        display: flex;
+    }
+
+
+    #menu {
+        display: block;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width: 769px) {
+    #menu {
+        display: none;
+    }
+}
+
+/* OVERLAY  */
+@media (max-width: 768px) {
+    .overlay {
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .overlay1, .overlay2 {
+        flex: none; 
+        width: 100%; 
+        padding: 1rem; 
+    }
+
+    .overlay1 {
+        background-color: rgba(230, 230, 230, 0.5);
+        text-align: center;
+        padding: 15rem 0;
+    }
+
+    .overlay1 h1 {
+        font-size: 5rem; 
+        margin-bottom: 1rem;
+    }
+
+    .overlay2 img,
+    .homeimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay1 h1 {
+        font-size: 1.5rem; 
+    }
+}
+
+/* AUTHOR */
+
+@media (max-width: 768px) {
+    .author {
+        flex-direction: column; 
+        align-items: center;    
+        text-align: center;
+    }
+
+    .author .aboutme {
+        max-width: 100%; 
+    }
+
+    .author .author-info {
+        flex-direction: column; 
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .author-info img {
+        width: 120px; 
+    }
+
+    .author-info ul {
+        padding-left: 0; 
+        list-style: none; 
+    }
+
+/* BUSINESS INFO */
+
+    @media (max-width: 768px) {
+    .business-info {
+        height: auto; 
+        padding: 1rem;
+        background-position: top;
+    }
+
+    .business-block {
+        padding: 1.5rem;
+        max-width: 100%;
+        background-color: rgba(240, 255, 255, 0.712);
+    }
+
+    .business-block h2 {
+        font-size: 1.5rem; 
+    }
+
+    .business-block p {
+        font-size: 0.95rem; 
+        line-height: 1.5;
+    }
+}
+
+/* go to contact */
+
+@media (max-width: 768px) {
+  .goToContactUS {
+    height: auto; 
+    padding: 2rem 1rem;
+    text-align: center;
+    gap: 2rem 1rem;
+  }
+
+  .goToContactUS h2 {
+    font-size: 1.5rem;
+  }
+
+  .goToContactUS p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+
+  .goToContactUS button {
+    width: 100%; 
+    font-size: 1rem;
+  }
+
+  
+}
+
+/* FORM */
+@media (max-width: 600px) {
+    .goToContactUS {
+        height: auto; /* que ajuste al contenido */
+        padding: 2rem 1rem;
+        gap: 1.2rem;
+    }
+
+    .goToContactUS h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .goToContactUS p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .goToContactUS button {
+        padding: 12px 25px;
+        font-size: 1.1rem;
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .wr1 {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 1.5rem 1rem;
+    }
+
+    .wr1 h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .wr1 input[type="text"],
+    .wr1 input[type="email"],
+    .wr1 input[type="tel"],
+    .wr1 textarea {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    .wr1 textarea {
+        min-height: 120px;
+    }
+
+    .wr1 button[type="submit"] {
+        padding: 12px 20px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .boton {
+        margin-top: 1rem;
+    }
+}
+
+/* clients and testimonial */
+
+@media (max-width: 768px) {
+  .client, .testimonial {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 20px;
+  }
+}
+
+/* thanks */
+
+@media (max-width: 600px) {
+  .thanks {
+    padding: 1.5rem 1rem;
+    max-width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+
+  .back-to-home {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.1rem;
+    border-radius: 6px;
+  }
+
+  .back-to-home a {
+    width: 100%;
+    padding: 0;
+  }
+
+  .thanks ul {
+    margin-top: 1rem;
+  }
+
+  .thanks ul li {
+    font-size: 0.95rem;
+    padding: 0.4rem 0;
+  }
+
+  .returnHome {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* footer */
+@media (max-width: 600px) {
+  footer ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
